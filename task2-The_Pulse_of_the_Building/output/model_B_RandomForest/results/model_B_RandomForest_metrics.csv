@@ -1,0 +1,2 @@
+Model,Accuracy,Best_Params,Training_Set_Size,Test_Set_Size
+Random Forest (Optimized),0.9901506373117034,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 200}",6901,1726
