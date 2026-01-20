@@ -1,0 +1,2 @@
+Model,Best_K,Silhouette_Score,Inertia
+K-Means (Model A),12,0.5639191416986952,3219.7853775105677
