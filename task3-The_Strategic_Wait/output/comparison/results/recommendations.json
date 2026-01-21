@@ -1,0 +1,53 @@
+[
+  {
+    "category": "Best Overall Strategy",
+    "model": "Model_B",
+    "details": "Based on minimum AWT of 2.36s",
+    "parking_floors": [
+      1,
+      6,
+      3,
+      14,
+      9,
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "category": "Dynamic/Adaptive Control",
+    "model": "Model_A",
+    "details": "Use Q-Learning policy for real-time adaptive parking",
+    "use_case": "Buildings with varying demand patterns"
+  },
+  {
+    "category": "Balanced Multi-Objective",
+    "model": "Model_B",
+    "details": "Use balanced Pareto solution for trade-off optimization",
+    "parking_floors": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      8
+    ]
+  },
+  {
+    "category": "Practical Implementation",
+    "model": "Model_C",
+    "details": "Best validated strategy: Demand_Based",
+    "parking_floors": [
+      1,
+      3,
+      4,
+      6,
+      10,
+      5,
+      9,
+      8
+    ]
+  }
+]

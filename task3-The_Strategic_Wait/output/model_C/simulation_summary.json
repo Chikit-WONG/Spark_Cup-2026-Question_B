@@ -1,0 +1,40 @@
+{
+  "best_overall_strategy": "Demand_Based",
+  "best_avg_wait_time": 39.29436046909611,
+  "best_parking_floors": [
+    1,
+    3,
+    4,
+    6,
+    10,
+    5,
+    9,
+    8
+  ],
+  "all_strategies": {
+    "Ground_Floor": {
+      "avg_wait_time": 40.291019832637275,
+      "long_wait_ratio": 0.007959497074457355
+    },
+    "Uniform_Distribution": {
+      "avg_wait_time": 40.20085762560351,
+      "long_wait_ratio": 0.0
+    },
+    "Demand_Based": {
+      "avg_wait_time": 39.29436046909611,
+      "long_wait_ratio": 0.0
+    },
+    "Zone_Based": {
+      "avg_wait_time": 39.4792956099743,
+      "long_wait_ratio": 0.0
+    },
+    "Hybrid": {
+      "avg_wait_time": 39.72528289970103,
+      "long_wait_ratio": 0.0
+    },
+    "Middle_Concentration": {
+      "avg_wait_time": 39.44649133757214,
+      "long_wait_ratio": 0.0
+    }
+  }
+}

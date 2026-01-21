@@ -1,0 +1,28 @@
+{
+  "Model_A": {
+    "name": "MDP + Q-Learning",
+    "avg_wait_time": 5.097631808550418,
+    "methodology": "Reinforcement Learning",
+    "best_strategy": "Learned Policy",
+    "key_insight": "Adaptive strategy based on time and demand"
+  },
+  "Model_B": {
+    "name": "NSGA-II Multi-Objective",
+    "avg_wait_time": 2.3571812631129974,
+    "long_wait_ratio": 0.0,
+    "energy": 21.215480493580955,
+    "parking_floors": "[1, 6, 3, 14, 9, 4, 5, 8]",
+    "methodology": "Evolutionary Algorithm",
+    "key_insight": "Pareto-optimal trade-offs between objectives",
+    "balanced_solution": "{'avg_wait_time': 4.241666380853825, 'parking_floors': [2, 1, 1, 1, 1, 1, 5, 8]}"
+  },
+  "Model_C": {
+    "name": "Discrete Event Simulation",
+    "avg_wait_time": 39.30170553696636,
+    "best_strategy": "Demand_Based",
+    "parking_floors": "[1, 3, 4, 6, 10, 5, 9, 8]",
+    "methodology": "Simulation-based Validation",
+    "key_insight": "Empirical validation of strategies",
+    "all_strategies": "{'Ground_Floor': {'avg_wait_time': 40.347496627725505, 'long_wait_ratio': 0.005938096988775421}, 'Uniform_Distribution': {'avg_wait_time': 40.251106423739344, 'long_wait_ratio': 0.0}, 'Demand_Based': {'avg_wait_time': 39.30170553696636, 'long_wait_ratio': 0.0}, 'Zone_Based': {'avg_wait_time': 39.409826446549225, 'long_wait_ratio': 0.0}, 'Hybrid': {'avg_wait_time': 39.720487556669795, 'long_wait_ratio': 0.0}, 'Middle_Concentration': {'avg_wait_time': 39.445770513271526, 'long_wait_ratio': 0.0}}"
+  }
+}

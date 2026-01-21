@@ -1,0 +1,35 @@
+{
+  "num_elevators": 8,
+  "elevator_ids": [
+    "A",
+    "G",
+    "H",
+    "I",
+    "B",
+    "C",
+    "F",
+    "D"
+  ],
+  "num_floors": 14,
+  "min_floor": 1,
+  "max_floor": 14,
+  "floors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "avg_travel_time_per_floor": 3.0,
+  "door_open_time": 4.0,
+  "passenger_weight_avg": 75.0
+}

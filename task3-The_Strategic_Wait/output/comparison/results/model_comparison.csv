@@ -1,0 +1,4 @@
+Model,Methodology,Best_AWT_seconds,Key_Insight,Best_Strategy,Long_Wait_Ratio,Best_Parking_Floors
+MDP + Q-Learning,Reinforcement Learning,5.097631808550418,Adaptive strategy based on time and demand,Learned Policy,,
+NSGA-II Multi-Objective,Evolutionary Algorithm,2.3571812631129974,Pareto-optimal trade-offs between objectives,,0.0,"[1, 6, 3, 14, 9, 4, 5, 8]"
+Discrete Event Simulation,Simulation-based Validation,39.30170553696636,Empirical validation of strategies,Demand_Based,,"[1, 3, 4, 6, 10, 5, 9, 8]"

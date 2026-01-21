@@ -8,10 +8,11 @@
 
   
 
-  电梯运行数据分析与建模，包含两大任务：
+  电梯运行数据分析与建模，包含三大任务：
 
   - **Task 1 (The Crystal Ball)**: 预测未来乘梯流量（5 分钟粒度），对比 Prophet / SARIMA / LSTM 三种时序模型。
   - **Task 2 (The Pulse of the Building)**: 识别并验证楼宇交通模式，先用 K-Means 发现簇，再用 Random Forest 进行可复现性验证。
+  - **Task 3 (The Strategic Wait)**: 动态停靠策略优化，使用 MDP+Q-Learning / 多目标优化 / 仿真验证 三种方法。
 
   ## 目录结构
 
@@ -56,6 +57,26 @@
         │  ├─ images/
         │  └─ results/
         ├─ model_B_RandomForest/
+        │  ├─ images/
+        │  └─ results/
+        └─ comparison/
+           ├─ images/
+           └─ results/
+  ├─ task3-The_Strategic_Wait/
+     ├─ task3_preprocess.py             # 任务三数据预处理
+     ├─ task3_model_A_MDP_QLearning.py  # 方案A：MDP + Q-Learning
+     ├─ task3_model_B_MultiObjective.py # 方案B：多目标优化 NSGA-II
+     ├─ task3_model_C_Simulation.py     # 方案C：离散事件仿真
+     ├─ task3_compare_models.py         # 任务三对比与综合
+     ├─ data/                           # 预处理输出数据
+     └─ output/
+        ├─ model_A_MDP_QLearning/
+        │  ├─ images/
+        │  └─ results/
+        ├─ model_B_MultiObjective/
+        │  ├─ images/
+        │  └─ results/
+        ├─ model_C_Simulation/
         │  ├─ images/
         │  └─ results/
         └─ comparison/
@@ -126,6 +147,27 @@
 
   输出位于 `task2-The_Pulse_of_the_Building/output/`，含聚类结果、分类报告与最终对比图。
 
+  6) **任务三：策略性等待（动态停靠策略优化）**
+
+  ```bash
+  # 步骤1: 数据预处理
+  python ./task3-The_Strategic_Wait/task3_preprocess.py
+  
+  # 步骤2: 运行三种优化方法
+  python ./task3-The_Strategic_Wait/task3_model_A_MDP_QLearning.py    # 方案A: MDP + Q-Learning
+  python ./task3-The_Strategic_Wait/task3_model_B_MultiObjective.py   # 方案B: 多目标优化 NSGA-II
+  python ./task3-The_Strategic_Wait/task3_model_C_Simulation.py       # 方案C: 离散事件仿真
+  
+  # 步骤3: 模型对比
+  python ./task3-The_Strategic_Wait/task3_compare_models.py
+  ```
+
+  输出位于 `task3-The_Strategic_Wait/output/`，包含：
+  - 最优停靠策略表
+  - 帕累托最优解集
+  - 仿真验证结果
+  - 模型对比报告
+
   ## 结果产物
 
   - 清洗数据：`mcm26Train-B-Data_clean/clean_*.csv`，`task1_traffic_flow_5min.csv`，`task2_classification_features.csv`。
@@ -133,6 +175,11 @@
   - 任务一对比：`output/comparison/final_metrics_comparison.csv` 及图片。
   - 任务二结果：`output/model_A_kmeans`、`model_B_RandomForest` 生成的指标与报告。
   - 任务二对比：`output/comparison/final_model_comparison.csv` 与评分卡图片。
+  - 任务三结果：`task3-The_Strategic_Wait/output/` 下各模型输出：
+    - MDP 学习策略表、训练曲线
+    - 多目标帕累托解集与收敛图
+    - 仿真验证的策略排名与推荐
+    - 综合对比分析与最终推荐
 
   ## 备注
 

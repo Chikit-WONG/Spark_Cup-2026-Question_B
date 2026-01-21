@@ -1,0 +1,2 @@
+Model,Num_Episodes,State_Space_Size,Action_Space_Size,Final_Epsilon,Best_Strategy_Wait_Time,Best_Strategy_Energy,Baseline_Best_Wait_Time,Improvement_Pct
+MDP + Q-Learning (Model A),5000,"(6, 3, 3)",8,0.01,5.350774773615057,24.0,4.90559272378887,-9.074990014302434

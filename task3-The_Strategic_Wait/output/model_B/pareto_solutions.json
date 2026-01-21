@@ -1,0 +1,306 @@
+[
+  {
+    "solution_id": 0,
+    "parking_floors": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AWT": 7.746673924942745,
+    "long_wait_ratio": 0.0,
+    "energy": 4.611965598903153
+  },
+  {
+    "solution_id": 1,
+    "parking_floors": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AWT": 7.690972739105972,
+    "long_wait_ratio": 0.0,
+    "energy": 4.719481490714197
+  },
+  {
+    "solution_id": 2,
+    "parking_floors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      6,
+      1,
+      1
+    ],
+    "AWT": 7.271190481951797,
+    "long_wait_ratio": 0.0,
+    "energy": 4.881278823382774
+  },
+  {
+    "solution_id": 3,
+    "parking_floors": [
+      6,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "AWT": 6.278869982628004,
+    "long_wait_ratio": 0.0,
+    "energy": 5.204075782126386
+  },
+  {
+    "solution_id": 4,
+    "parking_floors": [
+      6,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "AWT": 5.973279755377209,
+    "long_wait_ratio": 0.0,
+    "energy": 5.357821263866384
+  },
+  {
+    "solution_id": 5,
+    "parking_floors": [
+      6,
+      1,
+      3,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "AWT": 5.524700764302931,
+    "long_wait_ratio": 0.0,
+    "energy": 5.855453072416802
+  },
+  {
+    "solution_id": 6,
+    "parking_floors": [
+      8,
+      1,
+      1,
+      1,
+      1,
+      3,
+      1,
+      1
+    ],
+    "AWT": 5.461479763554576,
+    "long_wait_ratio": 0.0,
+    "energy": 6.058494328804686
+  },
+  {
+    "solution_id": 7,
+    "parking_floors": [
+      8,
+      3,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "AWT": 5.213091917770163,
+    "long_wait_ratio": 0.0,
+    "energy": 6.556126137355104
+  },
+  {
+    "solution_id": 8,
+    "parking_floors": [
+      1,
+      1,
+      1,
+      1,
+      4,
+      1,
+      1,
+      9
+    ],
+    "AWT": 4.914362129060627,
+    "long_wait_ratio": 0.0,
+    "energy": 6.809435373301757
+  },
+  {
+    "solution_id": 9,
+    "parking_floors": [
+      8,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1
+    ],
+    "AWT": 4.860304745053905,
+    "long_wait_ratio": 0.0,
+    "energy": 7.270148323569737
+  },
+  {
+    "solution_id": 10,
+    "parking_floors": [
+      9,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1
+    ],
+    "AWT": 4.469450425052506,
+    "long_wait_ratio": 0.0,
+    "energy": 7.634600523494952
+  },
+  {
+    "solution_id": 11,
+    "parking_floors": [
+      8,
+      1,
+      3,
+      1,
+      6,
+      1,
+      1,
+      1
+    ],
+    "AWT": 4.266938536335662,
+    "long_wait_ratio": 0.0,
+    "energy": 8.100648136607255
+  },
+  {
+    "solution_id": 12,
+    "parking_floors": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      9,
+      6,
+      1
+    ],
+    "AWT": 3.8990818440960484,
+    "long_wait_ratio": 0.0,
+    "energy": 8.388782251028294
+  },
+  {
+    "solution_id": 13,
+    "parking_floors": [
+      9,
+      2,
+      1,
+      1,
+      1,
+      3,
+      6,
+      1
+    ],
+    "AWT": 3.4162552172848417,
+    "long_wait_ratio": 0.0,
+    "energy": 8.886414059578712
+  },
+  {
+    "solution_id": 14,
+    "parking_floors": [
+      7,
+      1,
+      3,
+      1,
+      9,
+      4,
+      2,
+      1
+    ],
+    "AWT": 3.337850050528535,
+    "long_wait_ratio": 0.0,
+    "energy": 10.807952137604389
+  },
+  {
+    "solution_id": 15,
+    "parking_floors": [
+      7,
+      1,
+      3,
+      1,
+      5,
+      6,
+      10,
+      1
+    ],
+    "AWT": 3.0979251320957153,
+    "long_wait_ratio": 0.0,
+    "energy": 13.602405583946155
+  },
+  {
+    "solution_id": 16,
+    "parking_floors": [
+      4,
+      9,
+      3,
+      1,
+      7,
+      5,
+      6,
+      4
+    ],
+    "AWT": 2.9800385364489443,
+    "long_wait_ratio": 0.0,
+    "energy": 16.02411816028917
+  },
+  {
+    "solution_id": 17,
+    "parking_floors": [
+      14,
+      9,
+      2,
+      1,
+      3,
+      6,
+      10,
+      4
+    ],
+    "AWT": 2.6802458027472036,
+    "long_wait_ratio": 0.0,
+    "energy": 20.776754331297518
+  },
+  {
+    "solution_id": 18,
+    "parking_floors": [
+      14,
+      9,
+      3,
+      1,
+      4,
+      6,
+      4,
+      10
+    ],
+    "AWT": 2.594988254030731,
+    "long_wait_ratio": 0.0,
+    "energy": 21.7791225227471
+  }
+]
