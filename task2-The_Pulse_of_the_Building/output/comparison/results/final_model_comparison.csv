@@ -1,0 +1,5 @@
+Metric,Model A (K-Means),Model B (Random Forest)
+Model Type,Unsupervised (Discovery),Supervised (Verification)
+Key Indicator,Silhouette Score,Prediction Accuracy
+Value,0.5639,0.9902
+Interpretation,High value indicates distinct clusters,High value indicates learnable rules
