@@ -25,11 +25,17 @@ FILE_PREFIX = "model_B_RandomForest"
 
 # 超参数搜索范围 (Grid Search)
 # 注意：如果内存不足，可以减少 n_estimators 的选项或将 n_jobs 设为 1
+# PARAM_GRID = {
+#     'n_estimators': [50, 100, 150, 200, 250, 300],      # 树的数量
+#     'max_depth': [None, 10, 20, 30, 100],          # 树的最大深度
+#     'min_samples_split': [3, 4, 5, 6, 7]               # 节点分裂最小样本数
+# }
 PARAM_GRID = {
-    'n_estimators': [50, 100, 200, 300],      # 树的数量
-    'max_depth': [None, 10, 20, 30],          # 树的最大深度
-    'min_samples_split': [2, 5]               # 节点分裂最小样本数
+    'n_estimators': [245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255],      # 树的数量
+    'max_depth': [None],          # 树的最大深度
+    'min_samples_split': [5]               # 节点分裂最小样本数
 }
+
 
 # 绘图风格
 plt.style.use('bmh')
